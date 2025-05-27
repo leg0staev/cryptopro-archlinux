@@ -3,9 +3,9 @@
 
 Важно! Браузер должен быть установлен из AUR или Официального репозитория
 
-1 Скачать snapshot с этой страницы - https://aur.archlinux.org/cgit/aur.git/snapshot/cryptopro-csp-k1.tar.gz
-2 Распаковать и скачать архив с пакетами криптопро в папку с рапакованным архивом https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz
-3 в этой папке makepkg -si
+1 Скачать snapshot с этой страницы - https://aur.archlinux.org/cgit/aur.git/snapshot/cryptopro-csp-k1.tar.gz </br>
+2 Распаковать и скачать архив с пакетами криптопро в папку с рапакованным архивом https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz </br>
+3 в этой папке makepkg -si </br>
 
-если рутокен, то драйвера устанавливаются эти:
-4 sudo pacman -S pcsclite pcsc-tools
+если рутокен, то драйвера устанавливаются эти:</br>
+4 sudo pacman -S pcsclite pcsc-tools</br>
