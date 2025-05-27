@@ -1,2 +1,11 @@
-# cryptopro-archlinux
+# Инструкция по установке Сryptopro csp на Arch (Manjaro) Linux
 инструкция по установке cryptopro csp на арч (манжаро) линукс
+
+Важно! Браузер должен быть установлен из AUR или Официального репозитория
+
+1 Скачать snapshot с этой страницы - https://aur.archlinux.org/cgit/aur.git/snapshot/cryptopro-csp-k1.tar.gz
+2 Распаковать и скачать архив с пакетами криптопро в папку с рапакованным архивом https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz
+3 в этой папке makepkg -si
+
+если рутокен, то драйвера устанавливаются эти:
+4 sudo pacman -S pcsclite pcsc-tools
