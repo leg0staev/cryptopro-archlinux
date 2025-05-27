@@ -9,3 +9,4 @@
 
 если рутокен, то драйвера устанавливаются эти:</br>
 4 sudo pacman -S pcsclite pcsc-tools</br>
+
