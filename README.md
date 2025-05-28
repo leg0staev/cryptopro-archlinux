@@ -4,7 +4,7 @@
 Важно! Браузер должен быть установлен из AUR или Официального репозитория
 
 1 Склонировать репозиторий с гитхаб - git clone https://aur.archlinux.org/cryptopro-csp-k1.git</br>
-2 Распаковать и скачать архив с пакетами криптопро в папку с рапакованным архивом https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz </br>
+2 Cкачать архив с пакетами криптопро в папку клонированным репозиторием https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz </br>
 3 в этой папке makepkg -si </br>
 
 если рутокен, то драйвера устанавливаются эти:</br>
