@@ -10,4 +10,4 @@
 5. Запустить демона для работы с смарт-картами и токенами:</br>
    `sudo systemctl start pcscd`
    `sudo systemctl enable pcscd`
-
+6. Подключить токен, проверить его работу: `pcsc_scan`
