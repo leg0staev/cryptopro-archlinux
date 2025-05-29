@@ -3,7 +3,7 @@
 
 Важно! Браузер должен быть установлен из AUR или Официального репозитория
 
-1. Склонировать репозиторий с гитхаб - `git clone https://aur.archlinux.org/cryptopro-csp-k1.git`</br>
+1. Склонировать репозиторий из aur - `git clone https://aur.archlinux.org/cryptopro-csp-k1.git`</br>
 2. Cкачать архив с пакетами криптопро в папку c клонированным репозиторием https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz. Внимание, нужна авторизация на сайте криптопро</br>
 3. `makepkg -si` в папке репозитория </br>
 
