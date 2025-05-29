@@ -8,6 +8,6 @@
 3. `makepkg -si` в папке репозитория </br>
 4. если рутокен, то драйвера устанавливаются эти: `sudo pacman -S pcsclite pcsc-tools libarchive`</br>
 5. Запустить демона для работы с смарт-картами и токенами:</br>
-   `sudo systemctl start pcscd`
+   `sudo systemctl start pcscd`</br>
    `sudo systemctl enable pcscd`
 6. Подключить токен, проверить его работу: `pcsc_scan`
