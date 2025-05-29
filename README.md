@@ -7,4 +7,7 @@
 2. Cкачать архив с пакетами криптопро в папку c клонированным репозиторием https://cryptopro.ru/sites/default/files/private/csp/50/13300/linux-amd64.tgz. Внимание, нужна авторизация на сайте криптопро</br>
 3. `makepkg -si` в папке репозитория </br>
 4. если рутокен, то драйвера устанавливаются эти: `sudo pacman -S pcsclite pcsc-tools libarchive`</br>
+5. Запустить демона для работы с смарт-картами и токенами:</br>
+   `sudo systemctl start pcscd`
+   `sudo systemctl enable pcscd`
 
